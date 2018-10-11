@@ -17,4 +17,5 @@ end
 
 def reverse_array(array)
   array.sort {|a,b| array[a] <=> array[b]}
+  array
 end
