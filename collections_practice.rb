@@ -18,4 +18,3 @@ end
 def reverse_array(array)
   array.sort {|a,b| b <=> a}
 end
-
